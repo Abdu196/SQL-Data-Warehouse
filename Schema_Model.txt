@@ -1,5 +1,7 @@
----Star Schema Diagram
-Diagram Structure
+---Star-Schema Diagram Structure
+
+How the fact table (SalesFact) is at the center,surrounded by dimension tables that
+describe customer, product, time, network, support, and billing.
 
                              +--------------------+
                              |   CustomerDimension|
@@ -15,3 +17,5 @@ Diagram Structure
 +-------------------+  +-------------------+   +------------------+  +------------------+   +------------------+
 |   TimeDimension   |  |   ProductDimension |   | NetworkDimension |  | SupportDimension |   | BillingDimension |
 +-------------------+  +-------------------+   +------------------+  +------------------+   +------------------+
+
+
